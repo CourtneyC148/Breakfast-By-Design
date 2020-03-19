@@ -1,0 +1,63 @@
+body {
+	font-family: "nunito" sans-serif;
+}
+
+#hero h1 {
+	font-weight: 700;
+	letter-spacing: 1rem;
+	text-shadow: 0px 4px 3px red rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#mainNavbar .nav-link {
+	font-weight: 100;
+	color: #fff;
+}
+
+#mainNavbar .nav-link:hover {
+	font-weight: 100;
+	color: #fff;
+}
+
+.fa-bread-slice {
+	font-size: 1.5rem;
+}
+
+.jumbotron .hero-content {
+	font-weight: 100;
+	font-size: .8rem;
+}
+
+.jumbotron {
+  background: 
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),
+    /* bottom, image */
+    url(Imgs/breakfast.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#menu {
+	margin-top: 100px;
+}
+
+#menu p {
+	font-weight: 100;
+	font-size: .8rem;
+	color: #919191
+}
+
+#menu h6, h2 {
+	color: #444444;
+}
+
+
+
+
+
+
