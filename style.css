@@ -74,6 +74,20 @@ hr {
 	margin-top: 100px;
 }
 
+#gallery-menu a {
+	color: #f7b80a;
+	font-weight: 100;
+}
+
+#gallery-menu p {
+	font-weight: 100;
+	font-size: .9rem;
+	color: #919191;
+	line-height: 1.5rem;
+}
+
+
+
 
 
 
