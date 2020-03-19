@@ -16,12 +16,15 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-	font-weight: 100;
-	color: #fff;
+	color: #f7b80a;
 }
 
 .fa-bread-slice {
 	font-size: 1.5rem;
+}
+
+#toast-icon .fa-bread-slice {
+	color: #f7b80a;
 }
 
 .jumbotron .hero-content {
@@ -54,6 +57,21 @@ body {
 
 #menu h6, h2 {
 	color: #444444;
+}
+
+#menu h6 {
+	font-weight: 100;
+}
+#menu .price {
+	color: #f7b80a;
+}
+
+hr {
+	width: 50%;
+}
+
+#gallery-menu {
+	margin-top: 100px;
 }
 
 
