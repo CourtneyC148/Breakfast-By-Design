@@ -1,6 +1,12 @@
-body {
-	font-family: "nunito" sans-serif;
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "nunito" sans-serif;
 }
+
 
 #hero h1 {
 	font-weight: 700;
@@ -19,17 +25,10 @@ body {
 	color: #f7b80a;
 }
 
-.fa-bread-slice {
+.fa-bread-slice, .fa-seedling, 
+.fa-concierge-bell, .fa-users {
 	font-size: 1.5rem;
-}
-
-#toast-icon .fa-bread-slice {
 	color: #f7b80a;
-}
-
-.jumbotron .hero-content {
-	font-weight: 100;
-	font-size: .8rem;
 }
 
 .jumbotron {
@@ -86,6 +85,38 @@ hr {
 	color: #919191;
 	line-height: 1.5rem;
 }
+
+#service {
+  background: 
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),
+    /* bottom, image */
+    url(Imgs/BBD5.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#service h4 {
+	font-size: 1.125rem;
+}
+
+#service p, #testimonials p {
+	font-weight: 100;
+	font-size: .9rem;
+}
+
+#testimonials {
+	background-image: linear-gradient(#22758f, #208aab) ;
+}
+
+.name {
+	color: #f7b80a;
+}
+
+
 
 
 
