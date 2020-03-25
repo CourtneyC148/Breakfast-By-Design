@@ -7,7 +7,6 @@ html,body {
     font-family: "nunito" sans-serif;
 }
 
-
 #hero h1 {
 	font-weight: 700;
 	letter-spacing: 1rem;
@@ -115,6 +114,12 @@ hr {
 .name {
 	color: #f7b80a;
 }
+
+ #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+        background-color: grey;
+       }
 
 
 
