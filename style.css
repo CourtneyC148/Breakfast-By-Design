@@ -4,7 +4,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: "nunito" sans-serif;
+    font-family: "Nunito" sans-serif;
 }
 
 #hero h1 {
@@ -28,6 +28,11 @@ html,body {
 .fa-concierge-bell, .fa-users {
 	font-size: 1.5rem;
 	color: #f7b80a;
+}
+
+.scrolled {
+    background: #208aab;
+    transition: background 500ms;
 }
 
 .jumbotron {
@@ -120,6 +125,20 @@ hr {
         width: 100%;  /* The width is the width of the web page */
         background-color: grey;
        }
+
+#footer {
+	height: 100px;
+	color: #444;
+}
+
+#footer a {
+	color: #444;
+}
+
+#footer a:hover {
+	color: #f7b80a;
+	transition: .5s;
+}
 
 
 
