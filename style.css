@@ -30,7 +30,7 @@ html,body {
 	color: #f7b80a;
 }
 
-.scrolled {
+.navBar .scrolled {
     background: #208aab;
     transition: background 500ms;
 }
@@ -129,6 +129,10 @@ hr {
 #footer {
 	height: 100px;
 	color: #444;
+}
+
+#footer p {
+	font-size: .7rem;
 }
 
 #footer a {
