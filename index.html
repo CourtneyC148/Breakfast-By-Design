@@ -54,7 +54,7 @@
      <!-------- Start Header ------>
     <section id="hero" class="container-fluid px-0">
         <div class="jumbotron text-white text-center">
-            <h1 class="display-3 mb-0 ">TOASTED</h1>
+            <h1 class="display-3 mb-0 px-2">TOASTED</h1>
             <p class="lead">Your favorite breakfast and brunch cafe</p>
             <i class="fas fa-bread-slice"></i>
             <div class="container">
@@ -247,13 +247,13 @@
 
     <footer id="footer" class="container bg-white">
         <div class="row align-items-center my-4">
-            <div class="col-md-4">
+            <div class="col-md-6 order-1 order-sm-2 text-right footer-title">
                 <h5 class="font-weight-bold mb-0">TOASTED</h5>
-                <p>@ Est. 2020 Toasted Inc.</p>
+                <p>&copy; Est. 2020 Toasted Inc.</p>
             </div>
 
          
-            <div class="col-md-4 d-flex justify-content-around">
+            <div class="col-md-6 d-flex justify-content-around">
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -277,15 +277,6 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
 
     <script>
        // Initialize and add the map

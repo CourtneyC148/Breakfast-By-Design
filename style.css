@@ -1,5 +1,34 @@
 /* media queries */
+@media only screen and (max-width: 960px) {
+	.jumbotron {
+		padding-top: 15% !important;
+	}
+}
 
+@media only screen and (max-width: 780px) {
+	.jumbotron {
+		padding-top: 25% !important;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.jumbotron {
+		padding-top: 45% !important;
+	}
+	#hero h1 {
+		font-size: 50px;
+	}
+	.footer-title {
+		text-align: center !important;
+		padding-top: 10px !important;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	#hero h1 {
+		font-size: 45px;
+		letter-spacing: .5rem !important;
+	}
+}
 
 /* globals*/
 html,body {
